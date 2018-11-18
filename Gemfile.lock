@@ -142,7 +142,7 @@ GEM
       method_source (~> 0.9.0)
     public_suffix (3.0.2)
     puma (3.11.4)
-    rack (2.0.5)
+    rack (2.0.6)
     rack-protection (2.0.3)
       rack
     rack-test (1.0.0)
@@ -273,6 +273,7 @@ DEPENDENCIES
   omniauth-facebook
   pry
   puma (~> 3.11)
+  rack (>= 2.0.6)
   rails (~> 5.2.0)
   rake
   rb-readline
@@ -296,4 +297,4 @@ RUBY VERSION
    ruby 2.4.1p111
 
 BUNDLED WITH
-   1.16.4
+   1.17.1
