@@ -1,14 +1,18 @@
-# GradStat
+# GradStat-js
 
-GradStat is a course management application that logs your study time as well as comparing your pace with other students taking the same course.
+GradStat-js is a course management application that logs your study time as well as comparing your pace with other students taking the same course. This version integrates JavaScript and a JSON API to add dynamic features to the GradStat application.
 
 ## Setup
 
-`$ git clone 'git@github.com:missnadia/gradstat.git'`
+Clone with SSH:
+
+`$ git clone 'git@github.com:missnadia/gradstat-js.git'`
 
 OR
 
-`$ git clone 'https://github.com/missnadia/gradstat.git'`
+Clone with HTTPS:
+
+`$ git clone 'https://github.com/missnadia/gradstat-js.git'`
 
 Then execute:
 
@@ -28,7 +32,7 @@ Password: "password"
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at [github.com/missnadia/gradstat.git](https://github.com/missnadia/gradstat.git). This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at [github.com/missnadia/gradstat-js.git](https://github.com/missnadia/gradstat-js.git). This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
@@ -36,4 +40,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the GradStat project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/missnadia/gradstat/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the GradStat-js project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/missnadia/gradstat/blob/master/CODE_OF_CONDUCT.md).
