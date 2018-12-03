@@ -13,6 +13,8 @@ class CoursesController < ApplicationController
   end
 
   def show
+    @comments = @course.comments
+    @comment = @course.comments.build
   end
 
   def edit
