@@ -16,5 +16,7 @@ Rails.application.routes.draw do
   resources :students
   resources :charts, only: [:index]
   resources :sessions, only: [:create, :destroy]
-  resource :static, only: [:home]
+	resource :static, only: [:home]
+	
+	get '/myform', to: 'courses#myform'
 end
