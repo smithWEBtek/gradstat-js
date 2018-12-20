@@ -1,6 +1,10 @@
 <ul>
   <%= link_to "Back to Courses", courses_path, class: "submit_button" %>
 </ul>
+
+<%= link_to "Previous Course", courses_path, class: "submit_button" %>
+<%= link_to "Next Course", courses_path, class: "submit_button" %>
+
 <h2><%= @course.name %></h2>
 <table id="students">
   <tr>
